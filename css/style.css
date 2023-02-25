@@ -26,9 +26,8 @@
 }
 
 body{
-background-image: url('C:/Users/breno/Documents/Repositorio Git/projetolinksolutek/imagens/gif01.gif');
-background-size: cover;
-background-repeat: no-repeat;
+    background-color: white;
+/* O background-image não funcionou via CSS, está puxando via JS*/
 }
 
 main{
@@ -46,7 +45,8 @@ section#tela{
 }
 
 div#perfil{
-    background-image: url('C:/Users/breno/Documents/Repositorio Git/projetolinksolutek/imagens/ssolutek.png');
+    background-color: transparent;
+    /* O background-image não funcionou via CSS, está puxando via JS*/
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
