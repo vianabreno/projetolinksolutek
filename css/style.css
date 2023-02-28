@@ -47,7 +47,7 @@ section#tela{
 section#perfil{
     background-color: transparent;
     /* O background-image não funcionou via CSS, está puxando via JS*/
-    background-size: 60%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 150px;
@@ -58,25 +58,24 @@ section#perfil{
     margin-bottom: 10px;
 }
 
-div.bot{
+.bot{
     background-color: rgba(255, 255, 255, 0.767);
-    text-align: center;
-    width: 100%;
-    margin: auto;
-    margin-top: 15px;
-    line-height: 3em;
-    border-radius: 20px;
-}
-
-div.bot:hover{
-    background-color: #8c03037a;
-    transition: 0.5s;
-}
-
-div.bot > a{
-    text-decoration: none;
     font-family: var(--font04);
-    font-size: 1.1em;
+    font-size: 1.2em;
+    color: var(--cor5);
+    width: 100%;
+    border: transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bot:hover{
+    background-color: #8c03037a;
+    color: white;
+    transition: 0.6s;
+    cursor: pointer;
 }
 
 p#direitos{

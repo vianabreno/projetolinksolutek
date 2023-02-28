@@ -29,23 +29,6 @@ class time {
         this.displayHora = this.time.toLocaleTimeString('pt-BR')
     }
 
-    addEventListenerAll(elementos, eventos, fns){
-        eventos.split(' ').forEach((evento)=>{
-            elementos.addEventListener(evento, fns)
-        })
-    }
-
-    clickButtons(){
-        let bot = document.querySelectorAll('#tela > div')
-        let link = document.querySelector('.link')
-        bot.forEach((bott)=>{
-            this.addEventListenerAll(bott,'mousemove mousedown', pointer =>{
-                bott.style.cursor = 'pointer'
-            })
-
-        })
-    }
-
     get displayRelogio(){
         return this._displayRelogio.innerHTML;
     }
